@@ -5,6 +5,11 @@ Use this in your working directory:
 ```
 git clone https://github.com/Bharath-Sai-R/PRIEE-20IT928-Plasma_Donor_Application.git
 ```
+# <h3> [Optional ] Change Branch if main is empty
+-> Use:
+```
+git checkout Front-End
+```
 # <h3> 2. Setup the Project
 -> Install the Dependencies
 Use :
