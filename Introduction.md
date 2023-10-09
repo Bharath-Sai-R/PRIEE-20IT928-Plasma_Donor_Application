@@ -1,0 +1,2 @@
+Plasma Donation is critical component of healthcare that has a profound impact on the lives of patients in need. In this project, we will provide a contemporary solution to the process of plasma donation through an application.  
+Our primary goal today is to address the challenges that surround plasma donation, emphasize the importance of enhancing the donor experience, and introduce our innovative solution that harnesses technology to streamline and improve every aspect of the donation process.
