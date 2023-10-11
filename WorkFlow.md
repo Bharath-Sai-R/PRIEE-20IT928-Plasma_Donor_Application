@@ -1,0 +1,3 @@
+The person who wants to donate his/her plasma need to register in our application providing required information which are name, age, blood group, phone number and location etc.
+Patients who need plasma can also fill the form to request the plasma. Patients can directly call the donor by taking his/her contact number from the application. 
+The user can also view hospitals location and helpline number. 
