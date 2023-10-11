@@ -51,7 +51,6 @@ function NavBar() {
     <AppBar className={classes.app} position="static">
       <Tabs onChange={handleChange} value={value}>
         <Tab label="Home" className={classes.items} component={Link} to="/" />
-        <Tab label="Vaccine" className={classes.items} component={Link} to="/vaccineinfo" />
         <Tab label="Hospitals" className={classes.items} component={Link} to="/hospitalslist" />
         <Tab label="Plasma Donor ⬇️" className={classes.items} onClick={handleClick}/>
       </Tabs>

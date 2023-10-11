@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import styles from './App.module.css';
 
 
-import Vaccine from "./components/Vaccine/vaccine";
 import NavBar from './components/Navbar/NavBar.jsx';
 import PlasmaInfo from './components/PlasmaInfo/plasmaInfo';
 import Hospitals from './components/Hospitals/hospitals';
@@ -26,7 +25,6 @@ const App = () =>{
         <Route exact path="/" component={Home} />
         </div>
         <Route exact path="/plasma/donateplasma" component={DonorForm} />
-        <Route exact path="/vaccineinfo" component={Vaccine} />
         <Route exact path="/plasma" component={PlasmaInfo} />
         <Route exact path="/plasma/requestplasma" component={RequestForm} />
         <Route exact path="/plasma/getdonors" component={DonorList}/>
