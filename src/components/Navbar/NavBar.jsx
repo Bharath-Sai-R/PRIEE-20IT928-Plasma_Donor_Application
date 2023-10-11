@@ -52,7 +52,8 @@ function NavBar() {
       <Tabs onChange={handleChange} value={value}>
         <Tab label="Home" className={classes.items} component={Link} to="/" />
         <Tab label="Hospitals" className={classes.items} component={Link} to="/hospitalslist" />
-        <Tab label="Plasma Donor ⬇️" className={classes.items} onClick={handleClick}/>
+          <Tab label="Plasma Donor ⬇️" className={classes.items} onClick={handleClick} />
+        <Tab label="PlasmaInfo" className={classes.items} component={Link} to="/plasma" />
       </Tabs>
     </AppBar>
     {
@@ -63,7 +64,6 @@ function NavBar() {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose} className={classes.menuitems} component={Link} to="/plasma">Plasma Info</MenuItem>
           <MenuItem onClick={handleClose} className={classes.menuitems} component={Link} to="/plasma/requestplasma">Request Plasma</MenuItem>
           <MenuItem onClick={handleClose} className={classes.menuitems} component={Link} to="/plasma/donateplasma">Donate Plasma</MenuItem>
           <MenuItem onClick={handleClose} className={classes.menuitems} component={Link} to="/plasma/getrequesters">Request List</MenuItem>

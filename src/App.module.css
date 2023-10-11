@@ -1,9 +1,8 @@
  .container {
-  background-image: url('./images/background.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("https://wallpapercave.com/wp/wp4323461.png");
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
 
 

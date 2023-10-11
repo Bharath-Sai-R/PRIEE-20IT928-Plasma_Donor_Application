@@ -22,7 +22,7 @@ h1
 }
 .quoteDiv
 {
-    background-color: rgb(179, 255, 179);
+    background-color: rgb(234, 25, 25);
     margin-top: 15px;
     padding: 3px;
     text-align: center;
@@ -30,8 +30,8 @@ h1
 }
 .quote
 {
-    color: green;
-    font-size: 3em;
+    color: white;
+    font-size: 2.7em;
     animation: blinker 2s linear infinite;
 }
 @keyframes blinker {
