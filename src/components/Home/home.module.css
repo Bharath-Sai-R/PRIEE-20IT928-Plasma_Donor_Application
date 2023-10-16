@@ -8,6 +8,8 @@
 {
     font-size: 2em;
     min-height: calc(100vh - 34px);
+    text-align: center;
+    color:aqua;
 }
 h1
 {

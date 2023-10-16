@@ -1,5 +1,4 @@
 import styles from './home.module.css';
-import Footer from '../Footer/footer';
 
 const Index = () => {
     return (
@@ -19,8 +18,6 @@ const Index = () => {
             <span className={styles.quote}>DONATE PLASMA SAVE LIVES❤️</span>
           </div>
         </p>
-       
-        <Footer/>
       </div>
     
     )
