@@ -79,7 +79,7 @@ const DonorForm = () =>{
         {
         const {name ,username,password, gender, age, bloodgroup, positivedate, negativedate, phone, state, city}= user;
 
-        const res=await fetch("http://localhost:5002/plasma/createdonor", {
+        const res=await fetch("https://server-dot-priee-plasma-donor.el.r.appspot.com/plasma/createdonor", {
             method:"POST",
             headers: {
                 "Content-Type": "application/json"

@@ -15,14 +15,28 @@ const Donor = () =>{
     }]);
 
     useEffect(() => {
-        fetch("/plasma/getdonors").then(res=>{
-            if(res.ok)
-            {
-                return res.json();
+    async function fetchData() {
+        try {
+            const response = await fetch("https://server-dot-priee-plasma-donor.el.r.appspot.com/plasma/getdonors");
+            if (response.ok) {
+                const data = await response.json();
+                setDonors(data);
+            } else {
+                throw new Error("Network response was not ok");
             }
-        }).then(jsonRes => setDonors(jsonRes))
-    })
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
+    }
 
+    fetchData(); // Call the async function immediately
+
+    // Note: If you want to clean up something when the component unmounts,
+    // you can return a cleanup function from useEffect.
+    return () => {
+        // Cleanup logic (if needed)
+    };
+}, []);
     return(
         <>
         <h1 className={styles.heading}>Donors List</h1>

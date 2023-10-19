@@ -18,7 +18,7 @@ const Login = () =>{
         e.preventDefault();
         const { username,password}= login;
 
-        const res=await fetch("http://localhost:5002/plasma/checkdonor", {
+        const res=await fetch("https://server-dot-priee-plasma-donor.el.r.appspot.com/plasma/checkdonor", {
             method:"POST",
             headers: {
                 "Content-Type": "application/json"
@@ -40,7 +40,7 @@ const Login = () =>{
             if(window.location.href.indexOf("loginanddelete") > -1)
             {
                 
-                const res1=await fetch(`http://localhost:5002/plasma/deletedonor/${data.id}`,{
+                const res1=await fetch(`https://server-dot-priee-plasma-donor.el.r.appspot.com/plasma/deletedonor/${data.id}`,{
                     method:"delete",
                 })
                 const data1=await res1.json();

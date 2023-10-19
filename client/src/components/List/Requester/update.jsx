@@ -64,7 +64,7 @@ const UpdateForm = () =>{
         {
         const {username, age, bloodgroup, positivedate, phone, state, city}= user;
 
-        const res=await fetch("http://localhost:5002/plasma/updaterequester", {
+        const res=await fetch("https://server-dot-priee-plasma-donor.el.r.appspot.com/plasma/updaterequester", {
             method:"POST",
             headers: {
                 "Content-Type": "application/json"

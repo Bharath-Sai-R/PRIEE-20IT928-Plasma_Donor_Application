@@ -1,0 +1,6 @@
+runtime: nodejs20
+service: server
+
+env_variables:
+  NODE_ENV: production
+  DATABASE: mongodb+srv://plasma:mojo@plasmadonor.kkyoixd.mongodb.net/plasmadonor
