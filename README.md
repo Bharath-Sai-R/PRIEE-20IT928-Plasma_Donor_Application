@@ -20,7 +20,7 @@ npm run build
     "eject": "react-scripts eject"
   }
 ```
-# <h3> 5. Before deplying and after building use
+# <h3> 5. Before deploying and after building use
 ```
 "scripts": {
     "start": "react-scripts start",
