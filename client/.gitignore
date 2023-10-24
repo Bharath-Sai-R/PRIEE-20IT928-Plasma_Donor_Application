@@ -1,0 +1,5 @@
+# Node import Unnecessary
+node_modules/
+
+# Package Lock also not needed
+package-lock.json
