@@ -3,8 +3,7 @@
 # <h1> Important notes and changes to be made
 
 # <h3> 1. App Engine links for the project
-   1.1. Client : https://priee-plasma-donor.el.r.appspot.com/ <br>
-   1.2. Server : https://server-dot-priee-plasma-donor.el.r.appspot.com/<br>
+   https://priee-plasma-donor.el.r.appspot.com/
 <br>
 # <h3> 2. The Links are hardcoded to the fetch()
 # <h3> 3. Always run below code if any client changes are made as we only deply the build folder to the AppEngine
